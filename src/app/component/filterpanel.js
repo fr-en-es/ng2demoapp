@@ -26,7 +26,7 @@ System.register(["angular2/core"], function(exports_1) {
                 Filterpanel = __decorate([
                     core_1.Component({
                         selector: "filterpanel",
-                        template: "<div class=\"filterpanel\">Filterpanel\n  \n    <select name=\"select\">\n        <option *ngFor = \"#key of mandatekeys;\">{{key}}</option>\n        \n    </select>\n    <select name=\"select\">\n        <option value=\"value1\" selected>Value 1</option> \n        <option value=\"value2\" >Value 2</option>\n        <option value=\"value3\">Value 3</option>\n    </select>\n    </div>"
+                        template: "<div class=\"filterpanel\">Filterpanel\n  \n    <select name=\"select\">\n        <option *ngFor = \"#key of mandatekeys;\">{{key}}</option>\n        \n    </select>\n    <select name=\"select\">\n        <option value=\"value1\" selected>Account 1</option> \n        <option value=\"value2\" >Account 2</option>\n        <option value=\"value3\">Account 3</option>\n    </select>\n    </div>"
                     }), 
                     __metadata('design:paramtypes', [])
                 ], Filterpanel);

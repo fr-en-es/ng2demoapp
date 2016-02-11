@@ -9,9 +9,9 @@ import {Component, Input} from "angular2/core";
         
     </select>
     <select name="select">
-        <option value="value1" selected>Value 1</option> 
-        <option value="value2" >Value 2</option>
-        <option value="value3">Value 3</option>
+        <option value="value1" selected>Account 1</option> 
+        <option value="value2" >Account 2</option>
+        <option value="value3">Account 3</option>
     </select>
     </div>`
 })
