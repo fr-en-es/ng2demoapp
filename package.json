@@ -1,0 +1,42 @@
+{
+  "name": "poc",
+  "description": "Angular 2 poc",
+  "author": "csp",
+  "version": "0.0.1",
+  "scripts": {
+    
+    "tsc":"tsc", 
+    "lite-server":"lite-server",  
+    "watch:ts":"tsc -w",    
+    "watch:lite":"lite-server",
+    "start": "npm-run-all lite-server watch:ts  ", 
+      
+    "build:compile": "jspm bundle boot.ts --inject --minify",
+    "build": "npm-run-all build:*",
+    
+    
+    "dev": "concurrent \"npm run watch:ts\" \"npm run watch:lite\" "
+     
+  },
+  "dependencies": {
+    "angular2": "^2.0.0-beta.3",
+    "systemjs": "^0.19.20",
+    "es6-promise": "^3.0.2",
+    "es6-shim": "^0.33.3",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0-beta.0",
+    "zone.js": "0.5.11"
+  },
+  "devDependencies": {
+    "concurrently": "^1.0.0",
+     "jasmine-core": "^2.3.4",
+    "karma": "^0.13.15",
+    "karma-chrome-launcher": "^0.2.1",
+    "karma-jasmine": "^0.3.6",
+    "lite-server": "^2.0.1",
+    "typescript": "^1.7.5",
+    "npm-run-all": "1.5.1",
+    "node-sass": "3.4.2",
+    "jspm": "0.16.27"
+  }
+}

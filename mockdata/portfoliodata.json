@@ -1,0 +1,9 @@
+{
+    "accountinfo": 
+    [
+        {"mandatekey": "we2345g",  "accounts": ["Facebook", "Google"]},
+         {"mandatekey": "2345g",  "accounts": ["Facebook", "Google"]},
+          {"mandatekey": "345g",  "accounts": ["Facebook", "Google"]},
+           {"mandatekey": "45g",  "accounts": ["Facebook", "Google"]}
+    ]
+}
