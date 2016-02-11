@@ -1,0 +1,6 @@
+node_modules
+*.map
+src/test.ts
+src/test.js
+src/test.js.map
+npm-debug.log
